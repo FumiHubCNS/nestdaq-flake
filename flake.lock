@@ -1,0 +1,171 @@
+{
+  "nodes": {
+    "boost-pin": {
+      "locked": {
+        "lastModified": 1751274312,
+        "narHash": "sha256-/bVBlRpECLVzjV19t5KMdMFWSwKLtb5RyXdjz3LJT+g=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "50ab793786d9de88ee30ec4e4c24fb4236fc2674",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-24.11",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "fairloggerSrc": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1751455710,
+        "narHash": "sha256-BUEGwqrEsM4Cl9eV1TrsYBpHJKoqqd2TV76oLQGBrHQ=",
+        "owner": "FairRootGroup",
+        "repo": "FairLogger",
+        "rev": "71aac1199aa884da9430cd25c57353405249f0ae",
+        "type": "github"
+      },
+      "original": {
+        "owner": "FairRootGroup",
+        "ref": "v2.3.0",
+        "repo": "FairLogger",
+        "type": "github"
+      }
+    },
+    "fairmqSrc": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1662730833,
+        "narHash": "sha256-ctL4QClvlR/JmhqwmpYk3AYDwybKAi/HhcLmhcFQ8/M=",
+        "ref": "refs/tags/v1.4.55",
+        "rev": "af0d668951f6f9dfbcc164e3a09ace1fe1a9f84e",
+        "revCount": 1465,
+        "submodules": true,
+        "type": "git",
+        "url": "https://github.com/FairRootGroup/FairMQ.git"
+      },
+      "original": {
+        "ref": "refs/tags/v1.4.55",
+        "submodules": true,
+        "type": "git",
+        "url": "https://github.com/FairRootGroup/FairMQ.git"
+      }
+    },
+    "flake-utils": {
+      "inputs": {
+        "systems": "systems"
+      },
+      "locked": {
+        "lastModified": 1731533236,
+        "narHash": "sha256-l0KFg5HjrsfsO/JpG+r7fRrqm12kzFHyUHqHCVpMMbI=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "11707dc2f618dd54ca8739b309ec4fc024de578b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "nestdaqSrc": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1776768810,
+        "narHash": "sha256-l/g0Vu7huGcuxrEYElU6FDCO2eDR1eI0ULRXszEW0l0=",
+        "owner": "spadi-alliance",
+        "repo": "nestdaq",
+        "rev": "eda728718362cc0ee169bea9b111ffc3fda7ca6b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "spadi-alliance",
+        "repo": "nestdaq",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1789921291,
+        "narHash": "sha256-Ft/BRnIqw1MywFoXydKobjjWmDFgDdYtSpJliE8+yUw=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "44a91898084f46797b5fac650c7e8c9ac38c43d4",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "redisSrc": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1722231119,
+        "narHash": "sha256-3e079uO6y53W6XFhtKQ8pEPQhohP8QO8ZH13XQEf6As=",
+        "owner": "redis",
+        "repo": "redis",
+        "rev": "c9d29f6a918c335bc1778d9f68e521c1bbb36a0f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "redis",
+        "ref": "7.4.0",
+        "repo": "redis",
+        "type": "github"
+      }
+    },
+    "redistimeseriesSrc": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1721714671,
+        "narHash": "sha256-0i+i2xElhqdljYsAZ1Yar1/8+K3kN3jlqjx5zqBfXCg=",
+        "ref": "refs/tags/v1.12.2",
+        "rev": "5643fd4d6fcb1e9cf084fb2deb9285b08f4a6672",
+        "revCount": 1582,
+        "submodules": true,
+        "type": "git",
+        "url": "https://github.com/RedisTimeSeries/RedisTimeSeries.git"
+      },
+      "original": {
+        "ref": "refs/tags/v1.12.2",
+        "submodules": true,
+        "type": "git",
+        "url": "https://github.com/RedisTimeSeries/RedisTimeSeries.git"
+      }
+    },
+    "root": {
+      "inputs": {
+        "boost-pin": "boost-pin",
+        "fairloggerSrc": "fairloggerSrc",
+        "fairmqSrc": "fairmqSrc",
+        "flake-utils": "flake-utils",
+        "nestdaqSrc": "nestdaqSrc",
+        "nixpkgs": "nixpkgs",
+        "redisSrc": "redisSrc",
+        "redistimeseriesSrc": "redistimeseriesSrc"
+      }
+    },
+    "systems": {
+      "locked": {
+        "lastModified": 1681028828,
+        "narHash": "sha256-Vy1rq5AaRuLzOxct8nz4T6wlgyUR7zLU309k9mBC768=",
+        "owner": "nix-systems",
+        "repo": "default",
+        "rev": "da67096a3b9bf56a91d16901293e51ba5b49a27e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-systems",
+        "repo": "default",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}

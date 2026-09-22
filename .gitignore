@@ -1,0 +1,13 @@
+# Nix build outputs
+result
+result-*
+
+# direnv
+.direnv/
+
+# Local build logs
+*.log
+
+# Editor and local environment files (for example, .vscode/)
+.*
+!.gitignore
